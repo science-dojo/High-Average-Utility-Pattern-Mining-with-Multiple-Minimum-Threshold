@@ -37,7 +37,7 @@ public class Main {
         statusWriter.write(String.format("Total_time(s): %.2f\n", (endTimestamp - startTimestamp) / (double)1000));
         statusWriter.write(String.format("Memory_usage:%.2f\n", memu.mur.maxConsumationMemory));
         statusWriter.write("Haui_count:"+ memu.hauiCount +"\n");
-        statusWriter.write("Join_count:"+ memu.candidateCount +"\n");
+        statusWriter.write("candidate_count:"+ memu.candidateCount +"\n");
 
 //		test();
 	}
